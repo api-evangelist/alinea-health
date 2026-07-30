@@ -1,8 +1,28 @@
 aid: alinea-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alinea-health.png
 name: Alinea Health
-description: 'Alinea Health is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Alinea Health is an AI-powered clinical trial recruitment intelligence
+  platform that analyzes global trial registry data (ClinicalTrials.gov, ISRCTN, EU
+  CTR) alongside patient availability to detect enrollment risk before it causes delays
+  and to match eligible patients to appropriate studies for sponsors, CROs, sites,
+  and healthcare providers. The platform surfaces at-risk trials, benchmarks sites,
+  and visualizes enrollment pipelines, positioning delay prevention as protecting
+  $1.1M-$1.7M per month in trial spend. The company advertises enterprise-grade RESTful
+  APIs and custom data pipelines with end-to-end encryption and SOC 2 compliance,
+  but publishes no public developer portal, API reference, or machine-readable specification;
+  access is gated behind a partner platform and an early-access program. Backed by
+  General Catalyst, with offices in Toronto and Barcelona.'
 url: https://raw.githubusercontent.com/api-evangelist/alinea-health/refs/heads/main/apis.yml
 x-type: company
 x-source: general-catalyst-portfolio
@@ -14,9 +34,41 @@ modified: '2026-07-17'
 tags:
 - Company
 - Healthcare
+- Clinical Trials
+- Patient Recruitment
+- Clinical Research
+- Life Sciences
+- Artificial Intelligence
+- Data Analytics
 apis: []
+common:
+- type: Website
+  url: https://www.alineahealth.ai
+- type: About
+  url: https://www.alineahealth.ai/about-us
+- type: Support
+  url: https://www.alineahealth.ai/contact-us
+- type: SignUp
+  url: https://www.alineahealth.ai/book-a-demo
+- type: Login
+  url: https://platform.alineahealth.ai
+- type: PrivacyPolicy
+  url: https://www.alineahealth.ai/privacy-policy
+- type: TermsOfService
+  url: https://www.alineahealth.ai/terms-of-use
+- type: Investors
+  url: https://www.alineahealth.ai/investors
+- type: Careers
+  url: https://www.alineahealth.ai/careers
+- type: DomainSecurity
+  url: security/alinea-health-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
